@@ -43,11 +43,15 @@ jobs:
           echo What about build tools?
           mvn --version
           echo
+          echo Is Gradle installed?
           gradle --version
           echo
+          echo Is Ant Installed?
           ant -version
           echo
+          echo whoami?
           whoami
           echo
+          echo my present working directory?
           pwd
           echo
